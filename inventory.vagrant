@@ -1,0 +1,17 @@
+[etcd]
+192.168.50.11 ansible_connection=ssh ansible_user=vagrant ansible_ssh_private_key_file=ssh-key ansible_become=true ansible_become_user=root
+# 192.168.50.12 ansible_connection=ssh ansible_user=vagrant ansible_ssh_private_key_file=ssh-key ansible_become=true ansible_become_user=root
+# 192.168.50.13 ansible_connection=ssh ansible_user=vagrant ansible_ssh_private_key_file=ssh-key ansible_become=true ansible_become_user=root
+
+[masters]
+192.168.50.11 ansible_connection=ssh ansible_user=vagrant ansible_ssh_private_key_file=ssh-key ansible_become=true ansible_become_user=root
+# 192.168.50.12 ansible_connection=ssh ansible_user=vagrant ansible_ssh_private_key_file=ssh-key ansible_become=true ansible_become_user=root
+# 192.168.50.13 ansible_connection=ssh ansible_user=vagrant ansible_ssh_private_key_file=ssh-key ansible_become=true ansible_become_user=root
+
+[sslhost]
+192.168.50.11 ansible_connection=ssh ansible_user=vagrant ansible_ssh_private_key_file=ssh-key ansible_become=true ansible_become_user=root
+
+[node]
+# 192.168.50.21 ansible_connection=ssh ansible_user=vagrant ansible_ssh_private_key_file=ssh-key ansible_become=true ansible_become_user=root
+# 192.168.50.22 ansible_connection=ssh ansible_user=vagrant ansible_ssh_private_key_file=ssh-key ansible_become=true ansible_become_user=root
+
